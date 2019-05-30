@@ -7,9 +7,11 @@ There are two types of agents, the fishing agents (pirogues with fishing crews) 
 
 The reproduction of fish agents is simulated as a stochastic process depending on a reproduction probability and on a logistic-type growth restriction. The movement of fish agents is simulated using three sensory zones around the fish, namely, repulsion zone, parallel-orientation zone, and attraction zone. The harvest rate of a fishing agent is described according to the classic Schaefer’s model.
 
+
 > ## GENERAL ASPECTS
 
 The file `CoopFishABM.py` contains the model code (in python) and is the script to run. The run generates (1) an subfolder named `/simulation_output`, which contains a video of the simulation (`simulation_video.mp4`), showing agents moving on the two-dimensional fishing ground and, if present, the MPA(s), (2) the data on the dynamics of fish abundance and catch (`simulation_data.csv`), and (3) snapshots of each computing time step of the simulation. 
+
 
 > ##  RELEVANT MODEL PARAMETERS
 
@@ -57,14 +59,16 @@ Thew case of High Cooperation (HC) can be created as follows:
      
 > ##  THINGS TO NOTICE
 
-* How does a simulation with-MPA of a given configuration (size, age, or/ and distance between two MPAs) compares with same simulation without-MPA  in terms of fish abundance and catch?
-* Does the speed of fish agent have any impacts on the conservation effects of an MPA of a specific configuration (size, age, or/ and distance between two MPAs) ?
-* Does the different cooperation levels (regulation of catchability) affects the conservation effects of an MPA of a specific configuration (size, age, or/ and distance between two MPAs) ?
+* How does a simulation with MPA of a given configuration (size, age, or/ and distance between two MPAs) compares with same simulation without MPA  in terms of fish abundance and catch?
+* Does the speeds of fish agents have any impacts on the conservation effects of an MPA of a specific configuration (size, age, and/or distance between two MPAs)?
+* Does the different cooperation levels affects the conservation result of an MPA of a specific configuration (size, age, and/or distance between two MPAs)?
+
 
 > ##  EXTENDING THE MODEL 
 
-* In this model, we do not include life-history traits of the fish agents. Try extending the model by implementation of multiple fish species with different behavioural attributes and life-history traits.
-* Complexity can be also added to fishing agents to investigate in more detail cooperative self-governance, which can be achieved with a variety of mechanisms, including monitoring, sanctioning, and reciprocity. 
+Next model version could include:
+* Multiple fish species with different behavioural attributes and life-history traits.
+* Complexity should be added to fishing agents to investigate in more detail the effects of cooperative self-governance, which can be achieved with a variety of mechanisms, including monitoring, sanctioning, and reciprocity. 
 
 
 
