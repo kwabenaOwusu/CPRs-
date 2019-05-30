@@ -66,7 +66,7 @@ fully_coop = 4        # number of fully cooperative pirogues
 
 # Design of the MPA (presence/absence, size, age, and distance of between two) #
 MPA = 'yes'         # Presence or absence of MPA ('yes' for presence, 'no' for absence)
-Both = 'no'         # Presence of MPA ('no' for full-time presence, 'yes' for presence over a period)
+Both = 'no'         # Presence of MPA ('no' for full-time presence, 'yes' for part-time presence)
 Time_MPA = 50       # Period of time over which MPA is active (when Both = 'yes') 
 Type_MPA = 'single' # Spacial configuration of MPA ('spaced' for two MPAs, 'single' for one MPA)
 Dist_MPA = 0.2      # Distance between two MPAs (when Type_MPA = 'spaced')
