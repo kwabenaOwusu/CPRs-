@@ -24,7 +24,17 @@ The file `CoopFishABM.py` contains the model code (in python) and is the script 
      Frac_MPA = 0.25     # Fraction of fishing grounde covered by MPA(s)
      ```
 
-* Parameters for the configuration of different cooperative scenarios. Each fishing agent is characterised by one of five possible cooperation attributes (ranging from fully non-cooperative to fully cooperative). The summ of all cooperation type should be equal to the total number of fishing agents (`num_fishers`).
+* Parameters for the configuration of different cooperative scenarios. Each fishing agent is characterised by one of five possible cooperation attributes (ranging from fully non-cooperative to fully cooperative). The sum of all cooperation types should be equal to the total number of fishing agents (`num_fishers`). Thew case of Low Cooperation (LC) can be created as follows: 
+
+     ```
+     fully_noncoop = 6     # number of fully non-cooperative pirogues
+     noncoop = 5           # number of non-cooperative pirogues
+     cond_coop = 4         # number of conditional cooperative pirogues
+     coop = 3              # number of cooperative pirogues
+     fully_coop = 2        # number of fully cooperative pirogues
+     ```
+     
+Thew case of Intermediate Cooperation (IC) can be created as follows: 
 
      ```
      fully_noncoop = 4     # number of fully non-cooperative pirogues
@@ -34,6 +44,17 @@ The file `CoopFishABM.py` contains the model code (in python) and is the script 
      fully_coop = 4        # number of fully cooperative pirogues
      ```
 
+Thew case of High Cooperation (HC) can be created as follows:  
+
+     ```
+     fully_noncoop = 2     # number of fully non-cooperative pirogues
+     noncoop = 3           # number of non-cooperative pirogues
+     cond_coop = 4         # number of conditional cooperative pirogues
+     coop = 5              # number of cooperative pirogues
+     fully_coop = 6        # number of fully cooperative pirogues
+     ```
+
+     
 > ##  THINGS TO NOTICE
 
 * How does a simulation with-MPA of a given configuration (size, age, or/ and distance between two MPAs) compares with same simulation without-MPA  in terms of fish abundance and catch?
