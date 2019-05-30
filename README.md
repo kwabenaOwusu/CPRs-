@@ -30,7 +30,7 @@ The file `CoopFishABM.py` contains the model code (in python) and is the script 
 
 * Thew case of Low Cooperation (LC) can be created as follows: 
 
-     ```
+     ```python
      fully_noncoop = 6     # number of fully non-cooperative pirogues
      noncoop = 5           # number of non-cooperative pirogues
      cond_coop = 4         # number of conditional cooperative pirogues
@@ -40,7 +40,7 @@ The file `CoopFishABM.py` contains the model code (in python) and is the script 
      
 * Thew case of Intermediate Cooperation (IC) can be created as follows: 
 
-     ```
+     ```python
      fully_noncoop = 4     # number of fully non-cooperative pirogues
      noncoop = 4           # number of non-cooperative pirogues
      cond_coop = 4         # number of conditional cooperative pirogues
@@ -50,7 +50,7 @@ The file `CoopFishABM.py` contains the model code (in python) and is the script 
 
 * Thew case of High Cooperation (HC) can be created as follows:  
 
-     ```
+     ```python
      fully_noncoop = 2     # number of fully non-cooperative pirogues
      noncoop = 3           # number of non-cooperative pirogues
      cond_coop = 4         # number of conditional cooperative pirogues
