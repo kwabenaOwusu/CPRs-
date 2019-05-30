@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 #--------------------------------------------------------------------------------------
 
-# Agent-Based Model (ABM) representative of an idealised small-scale, artisanal  
-# fishery to disentangle the combined effects of fishing behaviour (expressed by
-# a cooperative trait associated to fishing effort) and different designs of Marine
-# Protected Areas area (age, size, and distance of between two MPAs)
+# Agent-Based Model (ABM) representative of an idealised small-scale, artisanal fishery. 
+# The model has been developed to investigate the combined effects of fishing behaviour 
+# (expressed by a cooperative trait associated to fishing effort) and different designs 
+# of Marine Protected Areas (age, size, and distance between two MPAs).
 
 # By : OWUSU, Kwabena Afriyie
 # Date : 16th April, 2019
