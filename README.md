@@ -15,24 +15,24 @@ The file `CoopFishABM.py` contains the model code (in python) and is the script 
 
 * Parameters for the configuration of the MPA (presence/absence, size, age, and distance of between two MPAs).
 
-   ```
-   MPA = 'yes'         # Presence or absence of MPA ('yes' for presence, 'no' for absence)
-   Both = 'no'         # Presence of MPA ('no' for presence over full duration of simulation, 'yes' for presence over a period)
-   Time_MPA = 50       # Period of time over which MPA is active (when Both = 'yes') 
-   Type_MPA = 'single' # Spacial configuration of MPA ('spaced' for two MPAs, 'single' for one MPA)
-   Dist_MPA = 0.2      # Distance between two MPAs (when Type_MPA = 'spaced')
-   Frac_MPA = 0.25     # Fraction of fishing grounde covered by MPA(s)
-   ```
+     ```
+     MPA = 'yes'         # Presence or absence of MPA ('yes' for presence, 'no' for absence)
+     Both = 'no'         # Presence of MPA ('no' for full duration, 'yes' for a period of time)
+     Time_MPA = 50       # Period of time over which MPA is active (when Both = 'yes') 
+     Type_MPA = 'single' # Spacial configuration of MPA ('spaced' for 2 MPAs, 'single' for 1 MPA)
+     Dist_MPA = 0.2      # Distance between two MPAs (when Type_MPA = 'spaced')
+     Frac_MPA = 0.25     # Fraction of fishing grounde covered by MPA(s)
+     ```
 
 * Parameters for the configuration of different cooperative scenarios. Each fishing agent is characterised by one of five possible cooperation attributes (ranging from fully non-cooperative to fully cooperative). The summ of all cooperation type should be equal to the total number of fishing agents (`num_fishers`).
 
-   ```
-   fully_noncoop = 4     # number of fully non-cooperative pirogues
-   noncoop = 4           # number of non-cooperative pirogues
-   cond_coop = 4         # number of conditional cooperative pirogues
-   coop = 4              # number of cooperative pirogues
-   fully_coop = 4        # number of fully cooperative pirogues
-   ```
+     ```
+     fully_noncoop = 4     # number of fully non-cooperative pirogues
+     noncoop = 4           # number of non-cooperative pirogues
+     cond_coop = 4         # number of conditional cooperative pirogues
+     coop = 4              # number of cooperative pirogues
+     fully_coop = 4        # number of fully cooperative pirogues
+     ```
 
 > ##  THINGS TO NOTICE
 
