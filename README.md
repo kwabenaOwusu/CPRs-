@@ -12,6 +12,14 @@ The reproduction of fish agents is simulated as a stochastic process depending o
 
 The file `CoopFishABM.py` contains the model code (in python) and is the script to run. The run generates (1) an subfolder named `/simulation_output`, which contains a video of the simulation (`simulation_video.mp4`), showing agents moving on the two-dimensional fishing ground and, if present, the MPA(s), (2) the data on the dynamics of fish abundance and catch (`simulation_data.csv`), and (3) snapshots of each computing time step of the simulation. 
 
+> ##  ALGORITHM
+
+Below we show a flow diagram illustrating the events handled by the agent-based model over a single time step. The oval, diamonds, and rectangles mark, respectively, the initialisation, the decision, and the action occurring during the simulations. The arrow shows the direction of the events.
+
+![image](FigS1.png)
+
+
+
 
 > ##  RELEVANT MODEL PARAMETERS
 
