@@ -1,39 +1,39 @@
 # -*- coding: utf-8 -*-
-#---------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
 
-# An agent-based model (ABM) representative of the  Senegalese sardine artisanal fishery 
-# to untangle the combined effects of fishery collective behaviour (characterized by 
-# cooperative trait and associated fishing effort) and design of no-take fishery 
-# area (size, distance of between network of areas and age MPA)
+# Agent-Based Model (ABM) representative of an idealised small-scale, artisanal  
+# fishery to disentangle the combined effects of fishing behaviour (expressed by
+# a cooperative trait associated to fishing effort) and different designs of Marine
+# Protected Areas area (age, size, and distance of between two MPAs)
 
 # By : OWUSU, Kwabena Afriyie
 # Date : 16th April, 2019
 
-#----------------------------------------------------------------------------
+#---------------------------------------------------------------------------
 
-## Create a subfolder to keep all plot files and data ##
+## Create a subfolder to save data ##
 import shutil, os
-subdir = 'simulation_output' # subfolder name for plot files
-if os.path.isdir(subdir): # does the subfolder already exist?
-    shutil.rmtree(subdir) # delete the whole folder
-os.mkdir(subdir) # make new subfolder
-os.chdir(subdir) # move to subfolder
+subdir = 'simulation_output' # subfolder name
+if os.path.isdir(subdir):    # if subfolder already exist
+    shutil.rmtree(subdir)    # delete the whole folder
+os.mkdir(subdir)             # make new subfolder
+os.chdir(subdir)             # move to subfolder
 
 #---------------------------------------------------------------------------
 
-## Import relevent libraries ##
+# Import relevent libraries #
 from pylab import *
 import copy as cp
 import random as rd
 import math
 import numpy as np
-import  matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import csv 
 from statistics import mean
 
-#---------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------
 
-## Parameters ##
+# Parameters #
 
 # Fishing ground and time #
 K = 200 # carrying capacity of fishing ground
