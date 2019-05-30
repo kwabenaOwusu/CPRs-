@@ -17,7 +17,7 @@ The file `CoopFishABM.py` contains the model code (in python) and is the script 
 
 * Parameters for the configuration of the MPA (presence/absence, size, age, and distance of between two MPAs).
 
-     ```
+     ```python
      MPA = 'yes'         # Presence or absence of MPA ('yes' for presence, 'no' for absence)
      Both = 'no'         # Presence of MPA ('no' for full duration, 'yes' for a period of time)
      Time_MPA = 50       # Period of time over which MPA is active (when Both = 'yes') 
@@ -26,7 +26,9 @@ The file `CoopFishABM.py` contains the model code (in python) and is the script 
      Frac_MPA = 0.25     # Fraction of fishing grounde covered by MPA(s)
      ```
 
-* Parameters for the configuration of different cooperative scenarios. Each fishing agent is characterised by one of five possible cooperation attributes (ranging from fully non-cooperative to fully cooperative). The sum of all cooperation types should be equal to the total number of fishing agents (`num_fishers`). Thew case of Low Cooperation (LC) can be created as follows: 
+* Parameters for the configuration of different cooperative scenarios. Each fishing agent is characterised by one of five possible cooperation attributes (ranging from fully non-cooperative to fully cooperative). The sum of all cooperation types should be equal to the total number of fishing agents (`num_fishers`). 
+
+* Thew case of Low Cooperation (LC) can be created as follows: 
 
      ```
      fully_noncoop = 6     # number of fully non-cooperative pirogues
@@ -36,7 +38,7 @@ The file `CoopFishABM.py` contains the model code (in python) and is the script 
      fully_coop = 2        # number of fully cooperative pirogues
      ```
      
-Thew case of Intermediate Cooperation (IC) can be created as follows: 
+* Thew case of Intermediate Cooperation (IC) can be created as follows: 
 
      ```
      fully_noncoop = 4     # number of fully non-cooperative pirogues
@@ -46,7 +48,7 @@ Thew case of Intermediate Cooperation (IC) can be created as follows:
      fully_coop = 4        # number of fully cooperative pirogues
      ```
 
-Thew case of High Cooperation (HC) can be created as follows:  
+* Thew case of High Cooperation (HC) can be created as follows:  
 
      ```
      fully_noncoop = 2     # number of fully non-cooperative pirogues
