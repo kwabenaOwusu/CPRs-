@@ -35,42 +35,42 @@ from statistics import mean
 
 ## Parameters ##
 
-# Fishing environment #
+# Fishing ground and time #
 K = 200 # carrying capacity of fishing ground
-n = 150 # number of simulation  years
+n = 150 # number of simulation time steps
 
-# Fish characteristics #
-growth_prob =  0.26 # maximum intrinsic growth rate
-init_fish = 200 # initial total number of fishes
-move_fish = 0.2 # speed of fish 
-rad_repulsion = 0.025 # radius of repulsion zone
+# Attributes of fish agents #
+growth_prob =  0.26    # maximum intrinsic growth rate
+init_fish = 200        # initial number of fish agents
+move_fish = 0.2        # speed of fish 
+rad_repulsion = 0.025  # radius of repulsion zone
 rad_orientation = 0.06 # radius of orientation zone 
-rad_attraction =  0.1 # radius of attraction zone 
-rad_repulsion_sqr = rad_repulsion ** 2 # radius of repulsion zone squared
-rad_orientation_sqr = rad_orientation ** 2 # radius of orientation zone squared
-rad_attraction_sqr = rad_attraction ** 2 # radius of attraction zone squared
+rad_attraction =  0.1  # radius of attraction zone 
+rad_repulsion_sqr = rad_repulsion ** 2     
+rad_orientation_sqr = rad_orientation ** 2 
+rad_attraction_sqr = rad_attraction ** 2   
 
-# Fishing unit characteristics #
-num_fishers = 20 # number of pirogues
-move_fishers = 0.3 # speed of a pirogue 
-q = 0.6 # catchability coefficient
-r = 0.2 # neighbourhood radius 
-r_sqr = r ** 2 # neighbourhood radius squared
+# Attributes of fishing agents (pirogues) #
+num_fishers = 20     # number of pirogues
+move_fishers = 0.3   # speed of a pirogue 
+q = 0.6              # catchability coefficient
+r = 0.2              # neighbourhood radius 
+r_sqr = r ** 2       # neighbourhood radius squared
 
-# Cooperation level (total of num_fishers) #
-fully_noncoop = 4 # number of fully_noncooperative pirogues
-noncoop = 4 # number of noncooperative pirogues
-cond_coop = 4 # number of conditional_cooperative pirogues
-coop = 4 # number of cooperative pirogues
-fully_coop = 4 # number of fully_cooperative pirogues
+# Cooperation scenarios (summ of all cooperation types = num_fishers) #
+fully_noncoop = 4     # number of fully_noncooperative pirogues
+noncoop = 4           # number of noncooperative pirogues
+cond_coop = 4         # number of conditional_cooperative pirogues
+coop = 4              # number of cooperative pirogues
+fully_coop = 4        # number of fully_cooperative pirogues
 
-# Design of the MPA simulation (size, distance of between network of areas and age MPA) #
-MPA = 'yes'  # run with-only-MPA simulation? (A 'yes' implies only-with-MPA and 'no' implies only-without-MPA)
-Both = 'no'  # run partly without-MPA and with-MPA? (A 'yes' implies partly (with-MPA and  with-MPA))
-Time_MPA = 50 # If Both = 'yes', which time do you want to terminate the MPA? 
-Type_MPA = 'single' # If MPA  = 'yes' or Both = 'yes', which spatial configuration do you want? (A 'spaced' implies two MPAs and 'single' implies only one MPA)
-Dist_MPA = 0.2 # If Type_MPA = 'spaced', What should be the distance between the two MPAs ?
-Frac_MPA = 0.25  # What fraction of the fishing environments should be set as MPA?
+# Design of the MPA (presence/absence, size, age, and distance of between two) #
+MPA = 'yes'         # Presence or absence of MPA ('yes' for presence, 'no' for absence)
+Both = 'no'         # Presence of MPA for a period of time ('no' for presence over full duration, 'yes' for presence over a period)
+Time_MPA = 50       # Period of time over which MPA is active (when Both = 'yes') 
+Type_MPA = 'single' # Spacial configuration of MPA ('spaced' for two MPAs, 'single' for one MPA)
+Dist_MPA = 0.2      # Distance between two MPAs (when Type_MPA = 'spaced')
+Frac_MPA = 0.25     # Fraction of fishing grounde covered by MPA(s)
 
 # Coordinates of the fishing ground #
 Area = 2.0000 
