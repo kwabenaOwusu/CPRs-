@@ -68,7 +68,7 @@ The file `CoopFishABM.py` contains the model code (in python) and is the script 
 
 > ##  EXTENDING THE MODEL 
 
-Next model version could include:
+Next model versions could include:
 * Multiple fish species with different behavioural attributes and life-history traits.
 * Complexity should be added to fishing agents to investigate in more detail the effects of cooperative self-governance, which can be achieved with a variety of mechanisms, including monitoring, sanctioning, and reciprocity. 
 
