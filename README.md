@@ -1,9 +1,9 @@
-# Agent-Based Model to investigate the effects of cooperation Marine Protected Areas on a small-scale artisanal fishery
+# Agent-Based Model to investigate the effects of human cooperation and Marine Protected Areas on a small-scale fishery
 
 > ## WHAT IS IT ?
-An Agent-Based Model (ABM) that captures the main characteristics of an idealised small-scale, artisanal fishery. The modelcan be used to disentangle the combined effects of fishing behaviour (expressed by a cooperative trait associated to fishing effort), and different designs of no-take fishery areas (presence or absence, age, size, distance between two MPAs) on fish abundances and catches.
+An Agent-Based Model (ABM) that captures the main characteristics of an idealised small-scale, artisanal fishery. The model can be used to disentangle the combined effects of fishing behaviour (expressed by a cooperative trait associated to fishing effort), and different designs of no-take fishery areas (presence or absence, age, size, distance between two MPAs) on fish abundances and catches.
 
-There are two types of agents, the fishing agents (pirogues with fishing crews) and fish agents. Agents are are initially randomly distributed on a finite two-dimensional space (fishing agents represented by circles, fish agents represented by triangles). Fishing agents are distinguished by different tonalities of grey, reflecting the associated cooperative trait values, ranging from fully-cooperative (black) to fully non-cooperative (lightest gray). 
+The model comprises two types of agents, the fishing agents (pirogues) and fish agents (schooling fish). Agents are initially randomly distributed on a finite two-dimensional space representing the fishing ground. Fishing agents (represented by dots) are distinguished by different tonalities of grey, reflecting their associated cooperative trait value, ranging from fully-cooperative (black) to fully non-cooperative (lightest gray). Fish agents (represented by triangles) are assumed identical.
 
 The reproduction of fish agents is simulated as a stochastic process depending on a reproduction probability and on a logistic-type growth restriction. The movement of fish agents is simulated using three sensory zones around the fish, namely, repulsion zone, parallel-orientation zone, and attraction zone. The harvest rate of a fishing agent is described according to the classic Schaefer’s model.
 
