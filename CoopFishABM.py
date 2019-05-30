@@ -58,15 +58,15 @@ r = 0.2              # neighbourhood radius
 r_sqr = r ** 2       # neighbourhood radius squared
 
 # Cooperation scenarios (summ of all cooperation types = num_fishers) #
-fully_noncoop = 4     # number of fully_noncooperative pirogues
-noncoop = 4           # number of noncooperative pirogues
-cond_coop = 4         # number of conditional_cooperative pirogues
+fully_noncoop = 4     # number of fully non-cooperative pirogues
+noncoop = 4           # number of non-cooperative pirogues
+cond_coop = 4         # number of conditional cooperative pirogues
 coop = 4              # number of cooperative pirogues
-fully_coop = 4        # number of fully_cooperative pirogues
+fully_coop = 4        # number of fully cooperative pirogues
 
 # Design of the MPA (presence/absence, size, age, and distance of between two) #
 MPA = 'yes'         # Presence or absence of MPA ('yes' for presence, 'no' for absence)
-Both = 'no'         # Presence of MPA for a period of time ('no' for presence over full duration, 'yes' for presence over a period)
+Both = 'no'         # Presence of MPA ('no' for full-time presence, 'yes' for presence over a period)
 Time_MPA = 50       # Period of time over which MPA is active (when Both = 'yes') 
 Type_MPA = 'single' # Spacial configuration of MPA ('spaced' for two MPAs, 'single' for one MPA)
 Dist_MPA = 0.2      # Distance between two MPAs (when Type_MPA = 'spaced')
