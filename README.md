@@ -1,7 +1,7 @@
 # Agent-Based Model to investigate the effects of cooperation and different characteristics of Marine Protected Areas on a simulated artisanal fishery
 
 > ## NOTE
-The **CoopFishABM.py** contains the model code and is the main script to run. It is implemented in python. It will generate an output folder named **simulation_output** in your working directory  which contains a video of the simulation (**simulation_video.mp4**), data of the catch and fish abundance dynamics of the fishing agent (**simulation_data.csv**) and snapshots of each computing time step of the simulation . 
+The file `CoopFishABM.py` contains the model code (in python) and is the script to run. The run generates (1) an subfolder named `/simulation_output`, which contains a video of the simulation (`simulation_video.mp4`), showing agents moving on the two-dimensional fishing ground and, if present, the MPA(s), (2) the data on the dynamics of fish abundance and catch (`simulation_data.csv`), and (3) snapshots of each computing time step of the simulation. 
 
 > ## WHAT IS IT ?
 We present here an Agent-Based Model (ABM) that captures, in broad terms, the main characteristics of a small-scale, artisanal fishery. We then use the model to disentangle the combined effects of fishing behaviour, expressed by a cooperative trait associated to fishing effort, and different designs of no-take fishery areas, including presence or absence, size, distance, and age, on fish abundances and catches.
