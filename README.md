@@ -1,4 +1,4 @@
-# Agent-Based Model to investigate the effects of cooperation and different characteristics of Marine Protected Areas on a simulated artisanal fishery
+# Agent-Based Model to investigate the effects of cooperation Marine Protected Areas on a small-scale artisanal fishery
 
 > ## WHAT IS IT ?
 An Agent-Based Model (ABM) that captures the main characteristics of an idealised small-scale, artisanal fishery. The modelcan be used to disentangle the combined effects of fishing behaviour (expressed by a cooperative trait associated to fishing effort), and different designs of no-take fishery areas (presence or absence, age, size, distance between two MPAs) on fish abundances and catches.
