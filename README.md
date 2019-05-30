@@ -19,7 +19,7 @@ The file `CoopFishABM.py` contains the model code (in python) and is the script 
 
      ```python
      MPA = 'yes'         # Presence or absence of MPA ('yes' for presence, 'no' for absence)
-     Both = 'no'         # Presence of MPA ('no' for full duration, 'yes' for a period of time)
+     Both = 'no'         # Presence of MPA ('no' for full-time presence, 'yes' for part-time presence)
      Time_MPA = 50       # Period of time over which MPA is active (when Both = 'yes') 
      Type_MPA = 'single' # Spacial configuration of MPA ('spaced' for 2 MPAs, 'single' for 1 MPA)
      Dist_MPA = 0.2      # Distance between two MPAs (when Type_MPA = 'spaced')
