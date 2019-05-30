@@ -10,8 +10,7 @@ There are two types of agents,  fishermen (i.e. pirogues with fishing crews, mar
 
 The reproduction of fish agents is simulated as a stochastic process depending on a reproduction probability and on a logistic-type growth restriction. The fish agent movement is simulated using three sensory zones around the fish, namely, repulsion zone, parallel-orientation zone, and attraction zone. The harvest rate of a fishing agent is described according to Schaefer’s model. The fishing agent moving towards the direction of a neighbouring agent exhibiting a greatest catch.
 
-> ##  HOW TO USE IT
-
+> ##  Design of the MPA simulation (size, distance of between network of areas and age MPA
 * The flag **MPA** determines whether the simulation includes an MPA or not for the whole duration of the run.
 * The flag **Both** determines whether the simulation includes an MPA only for a period of the run.
 * The  **Time_MPA** determines which time to terminate MPA, if **Both** is set to "yes".
@@ -19,14 +18,33 @@ The reproduction of fish agents is simulated as a stochastic process depending o
 * The **Dist_MPA** sets the distance between the two MPAs, if **Type_MPA** = "spaced".
 * The **Frac_MPA** sets the fraction of the fishing ground to be set as MPA, IF **MPA** = "yes" or **Both** = "yes"
 
-# Design of the MPA simulation (size, distance of between network of areas and age MPA) #
-MPA = 'yes'  # run with-only-MPA simulation? (A 'yes' implies only-with-MPA and 'no' implies only-without-MPA)
-Both = 'no'  # run partly without-MPA and with-MPA? (A 'yes' implies partly (with-MPA and  with-MPA))
-Time_MPA = 50 # If Both = 'yes', which time do you want to terminate the MPA? 
-Type_MPA = 'single' # If MPA  = 'yes' or Both = 'yes', which spatial configuration do you want? (A 'spaced' implies two MPAs and 'single' implies only one MPA)
-Dist_MPA = 0.2 # If Type_MPA = 'spaced', What should be the distance between the two MPAs ?
-Frac_MPA = 0.25  # What fraction of the fishing environments should be set as MPA?
+
+
+> ##  THINGS TO NOTICE
+
+* How does a simulation with-MPA of a given configuration (size, age, or/ and distance between two MPAs) compares with same simulation without-MPA  in terms of fish abundance and catch?
+* Does the speed of fish agent have any impacts on the conservation effects of an MPA of a specific configuration (size, age, or/ and distance between two MPAs) ?
+* Does the different cooperation levels (regulation of catchability) affects the conservation effects of an MPA of a specific configuration (size, age, or/ and distance between two MPAs) ?
+
+> ##  EXTENDING THE MODEL 
+
+* In this model, we do not include life-history traits of the fish agents. Try extending the model by implementation of multiple fish species with different behavioural attributes and life-history traits.
+* Complexity can be also added to fishing agents to investigate in more detail cooperative self-governance, which can be achieved with a variety of mechanisms, including monitoring, sanctioning, and reciprocity. 
 
 
 
-> ##  THINGS TO TRY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
