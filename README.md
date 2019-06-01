@@ -84,7 +84,9 @@ Next model versions could include:
 * Multiple fish species with different behavioural attributes and life-history traits.
 * Complexity should be added to fishing agents to investigate in more detail the effects of cooperative self-governance, which can be achieved with a variety of mechanisms, including monitoring, sanctioning, and reciprocity. 
 
-# Relevant references on modelling human cooperation
+# Relevant references
+
+K. A. Owusu, M. M. Kulesz, and A. Merico. [Extraction behaviour and income inequalities resulting from a common pool resource exploitation](https://www.mdpi.com/2071-1050/11/2/536). *Sustainability*, **11**(536), 2019.
 
 G. Brandt, A. Merico, B. Vollan, and A. Schlüter. [Human adaptive behavior in common pool resource systems](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052763). *PLoS ONE*, **7**(12):e52763, 2012.
 
