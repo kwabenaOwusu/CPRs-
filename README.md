@@ -9,7 +9,7 @@ The model comprises two types of agents, the fishing agents (pirogues) and fish 
 
 The reproduction of fish agents is simulated as a stochastic process depending on a reproduction probability and on a logistic-type growth restriction. The movement of fish agents is simulated using three sensory zones around the fish, namely, repulsion zone, parallel-orientation zone, and attraction zone. 
 
-<img src="Fig2n.png" width="20" height="10">
+<img src="Fig2n.png" width="50">
 
 The harvest rate of a fishing agent is described according to the classic Schaefer’s model.
 
