@@ -18,7 +18,11 @@ Below we show a flow diagram illustrating the events handled by the agent-based 
 
 ![image](FigS1.png)
 
+The state of our system (number of fishes and pirogues) is updated in an asynchronous manner (Cornforth et al. 2005; Caron-Lormier et al. 2008), we thus assume that in each asynchronous updating, $1/(n+P)$ of a time step passes by, where $n+P$ is the total number of agents (fishes and pirogues) at the time of updating. With this method, each agent (whether fish or pirogue) is updated once, on average, in each time step. Relevant references for asynchronous update are: 
 
+- D. Cornforth, D. G. Green, and D. Newth. Ordered asynchronous processes in multi-agent systems. *Physica D: Nonlinear Phenomena*, **204**(1-2):70–82, 2005.
+
+- G. Caron-Lormier, R. W. Humphry, D. A. Bohan, C. Hawes, and P. Thorbek. Asynchronous and synchronous updating in individual-based models. *Ecological Modelling*, **212**(3-4):522–527, 2008.
 
 
 > ##  RELEVANT MODEL PARAMETERS
