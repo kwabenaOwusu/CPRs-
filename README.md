@@ -1,6 +1,6 @@
 # Agent-Based Model to investigate the effects of human cooperation and Marine Protected Areas on a small-scale fishery
 
-# WHAT IS IT ?
+# What is it?
 An Agent-Based Model (ABM) that captures the main characteristics of an idealised small-scale, artisanal fishery. The model can be used to disentangle the combined effects of fishing behaviour (expressed by a cooperative trait associated to fishing effort), and different designs of no-take fishery areas (presence or absence, age, size, distance between two MPAs) on fish abundances and catches.
 
 The model comprises two types of agents, the fishing agents (pirogues) and fish agents (schooling fish). Agents are initially randomly distributed on a finite two-dimensional space representing the fishing ground. Fishing agents (represented by dots) are distinguished by different tonalities of grey, reflecting their associated cooperative trait value, ranging from fully-cooperative (black) to fully non-cooperative (lightest gray). Fish agents (represented by triangles) are assumed identical.
@@ -8,11 +8,11 @@ The model comprises two types of agents, the fishing agents (pirogues) and fish 
 The reproduction of fish agents is simulated as a stochastic process depending on a reproduction probability and on a logistic-type growth restriction. The movement of fish agents is simulated using three sensory zones around the fish, namely, repulsion zone, parallel-orientation zone, and attraction zone. The harvest rate of a fishing agent is described according to the classic Schaefer’s model.
 
 
-# GENERAL ASPECTS
+# General aspects
 
 The file `CoopFishABM.py` contains the model code (in python) and is the script to run. The run generates (1) an subfolder named `/simulation_output`, which contains a video of the simulation (`simulation_video.mp4`), showing agents moving on the two-dimensional fishing ground and, if present, the MPA(s), (2) the data on the dynamics of fish abundance and catch (`simulation_data.csv`), and (3) snapshots of each computing time step of the simulation. 
 
-#  ALGORITHM
+#  Flow diagram
 
 Below we show a flow diagram illustrating the events handled by the agent-based model over a single time step. The oval, diamonds, and rectangles mark, respectively, the initialisation, the decision, and the action occurring during the simulations. The arrow shows the direction of the events.
 
@@ -25,7 +25,7 @@ D. Cornforth, D. G. Green, and D. Newth. Ordered asynchronous processes in multi
 G. Caron-Lormier, R. W. Humphry, D. A. Bohan, C. Hawes, and P. Thorbek. Asynchronous and synchronous updating in individual-based models. *Ecological Modelling*, **212**(3-4):522–527, 2008.
 
 
-#  RELEVANT MODEL PARAMETERS
+#  Setting relevant model parameters
 
 * Parameters for the configuration of the MPA (presence/absence, size, age, and distance of between two MPAs).
 
@@ -71,14 +71,14 @@ G. Caron-Lormier, R. W. Humphry, D. A. Bohan, C. Hawes, and P. Thorbek. Asynchro
      ```
 
      
-#  THINGS TO NOTICE
+#  Things to note
 
 * How does a simulation with MPA of a given configuration (size, age, or/ and distance between two MPAs) compares with same simulation without MPA  in terms of fish abundance and catch?
 * Does the speeds of fish agents have any impacts on the conservation effects of an MPA of a specific configuration (size, age, and/or distance between two MPAs)?
 * Does the different cooperation levels affects the conservation result of an MPA of a specific configuration (size, age, and/or distance between two MPAs)?
 
 
-#  EXTENDING THE MODEL 
+#  Extending the model
 
 Next model versions could include:
 * Multiple fish species with different behavioural attributes and life-history traits.
