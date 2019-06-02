@@ -17,8 +17,7 @@ The reproduction of fish agents is simulated as a stochastic process depending o
 
 The harvest rate of a fishing agent is described according to the classic Schaefer’s model.
 
-h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
-
+*H(n') = q E<sub>&k;</sub> n'*
 
 # Technicalities
 
