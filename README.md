@@ -15,9 +15,11 @@ The reproduction of fish agents is simulated as a stochastic process depending o
   <img src="Fig2n.png" width="375">
 </p>
 
-The harvest rate of a fishing agent is described according to the classic Schaefer’s model.
+The harvest rate *H* of a fishing agent is described according to the classic Schaefer’s model (e.g. Clark, 2010 Mathematical bioeconomics. 3rd ed. John Wiley & Sons):
 
 *H(n') = q E<sub>k</sub> n'*
+
+Where *q* is the catchability coefficient, *n'* is the number of fish agents in a fixed neighbourhood, and *E<sub>k</sub>* is the fishing effort, ranging from 0.2 (lowest effort) to 1.0 (highest effort) and associated to a specific cooperative trait value.
 
 # Technicalities
 
